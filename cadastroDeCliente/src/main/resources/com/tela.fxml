@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="buscarCep" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controlador">
+   <children>
+      <Label layoutX="56.0" layoutY="74.0" text="Nome" />
+      <Label layoutX="56.0" layoutY="126.0" text="CEP" />
+      <Label layoutX="56.0" layoutY="183.0" text="Rua" />
+      <Label layoutX="56.0" layoutY="232.0" text="Cidade" />
+      <Label layoutX="56.0" layoutY="291.0" text="Telefone" />
+      <TextField fx:id="nome" layoutX="102.0" layoutY="70.0" />
+      <TextField fx:id="cep" layoutX="102.0" layoutY="122.0" />
+      <TextField fx:id="rua" layoutX="102.0" layoutY="179.0" />
+      <TextField fx:id="cidade" layoutX="102.0" layoutY="228.0" />
+      <TextField fx:id="telefone" layoutX="110.0" layoutY="287.0" />
+      <Button layoutX="266.0" layoutY="122.0" mnemonicParsing="false" onAction="#buscarCep" text="Buscar" />
+      <Button layoutX="317.0" layoutY="343.0" mnemonicParsing="false" onAction="#limparCampo" text="Limpar" />
+      <Button layoutX="208.0" layoutY="343.0" mnemonicParsing="false" onAction="#gravarCliente" text="Gravar" />
+      <Label layoutX="363.0" layoutY="183.0" text="Número" />
+      <TextField fx:id="numeroDaCasa" layoutX="418.0" layoutY="180.0" />
+      <TextField fx:id="estado" layoutX="418.0" layoutY="228.0" />
+      <Label layoutX="379.0" layoutY="232.0" text="Estado" />
+   </children>
+</AnchorPane>
